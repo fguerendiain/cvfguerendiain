@@ -60,9 +60,7 @@ export function PDFDocument() {
 
   return (
     <Document>
-      {/* ================= PAGE 1 ================= */}
       <Page size="A4" style={styles.page}>
-        {/* HEADER */}
         <View style={styles.header}>
           <View style={styles.headerLeft}>
             <Text style={styles.headerName}>{profile.name}</Text>
@@ -81,33 +79,30 @@ export function PDFDocument() {
             <Text>{profile.email}</Text>
             <Text>{formatPhoneNumber(profile.phone)}</Text>
             <Text>
-              LinkedIn:
+              {tGeneral('linkedinLinkTitle')}:
               <Link
                 src={profile.linkedin}
                 style={{ textDecoration: "none", color: "#19429b" }}
               >
-                fguerendiain
+                {profile.linkedinShort}
               </Link>
             </Text>
             <Text>
-              GitLab:
+              {tGeneral('GitHubLinkTitle')}:
               <Link
                 src={profile.github}
                 style={{ textDecoration: "none", color: "#19429b" }}
               >
-                fguerendiain33
+                {profile.githubShort}
               </Link>
             </Text>
           </View>
         </View>
 
-        {/* ABOUT */}
         <View style={styles.section}>
           <Text style={styles.subtitle}>{tGeneral("aboutTitle")}</Text>
           <Text>{tProfile("about")}</Text>
         </View>
-
-        {/* EXPERIENCE */}
         <View style={styles.section}>
           <Text style={styles.subtitle}>{tGeneral("experienceTitle")}</Text>
 
@@ -123,9 +118,7 @@ export function PDFDocument() {
         </View>
       </Page>
 
-      {/* ================= PAGE 2 ================= */}
       <Page size="A4" style={styles.page}>
-        {/* SKILLS */}
         <Text style={styles.pageTitle}>{tGeneral("skillsTitle")}</Text>
 
         <View style={styles.skillGrid}>
@@ -146,7 +139,6 @@ export function PDFDocument() {
           ))}
         </View>
 
-        {/* LANGUAGES */}
         <View style={styles.languagesBlock}>
           <Text style={styles.pageTitle}>{tGeneral("languajeTitle")}</Text>
 

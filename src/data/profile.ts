@@ -4,6 +4,8 @@ export interface IProfile {
   email: string;
   linkedin: string;
   github: string;
+  linkedinShort: string;
+  githubShort: string;
   phone: string;
   webSite: string;
 }
@@ -14,6 +16,8 @@ export const profile: IProfile = {
   email: "fguerendiain33@gmail.com",
   linkedin: "https://www.linkedin.com/in/fguerendiain/",
   github: "https://gitlab.com/fguerendiain33/",
+  linkedinShort: "fguerendiain",
+  githubShort: "fguerendiain33",
   phone: "+5491161032207",
   webSite: "https://franco.guerendiain.com.ar/"
 };
