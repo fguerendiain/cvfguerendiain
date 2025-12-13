@@ -72,7 +72,6 @@ export function PDFDocument() {
         <View style={styles.section}>
           <Text style={styles.headerName}>{profile.name}</Text>
           <Text style={styles.headerRole}>{profile.role}</Text>
-          <Text>{profile.location}</Text>
           <Text>{profile.email}</Text>
           <Text>{profile.github}</Text>
           <Text>{profile.linkedin}</Text>
@@ -80,7 +79,6 @@ export function PDFDocument() {
 
         <View style={styles.section}>
           <Text style={styles.subtitle}>Sobre mí</Text>
-          <Text>{profile.about}</Text>
         </View>
 
         <View style={styles.section}>
