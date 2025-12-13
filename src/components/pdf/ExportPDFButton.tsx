@@ -1,12 +1,12 @@
 "use client";
 
 import { pdf } from "@react-pdf/renderer";
-import { PDFDocument } from "@/components/PDFDocument";
+import { PDFDocument } from "@/components/pdf/PDFDocument";
 import { FileText } from "lucide-react";
 import { useTranslation } from "react-i18next";
 
 export default function ExportPDFButton() {
-  const { t } = useTranslation();  
+  const { t: tGeneral } = useTranslation();  
 
   const handleExportPDF = async () => {
     const blob = await pdf(<PDFDocument />).toBlob();
@@ -24,7 +24,7 @@ export default function ExportPDFButton() {
     <button
       onClick={handleExportPDF}
       className="p-2 hover:bg-gray-200 rounded-md"
-      title={t('pdfExportTooltip')}
+      title={tGeneral('pdfExportTooltip')}
     >
       <FileText className="w-5 h-5" />
     </button>

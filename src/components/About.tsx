@@ -17,7 +17,7 @@ export default function AboutMe() {
       transition={{ duration: 0.6 }}
     >
       <h3 className="text-2xl font-semibold mb-6">{tGeneral("aboutTitle")}</h3>
-      <p className="text-neutral-700 leading-relaxed">{tProfile("about")}</p>
+      <p className="text-neutral-700 dark:text-neutral-400 leading-relaxed">{tProfile("about")}</p>
     </motion.section>
   );
 }

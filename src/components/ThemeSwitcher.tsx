@@ -6,10 +6,12 @@ import { useTranslation } from "react-i18next";
 
 export const ThemeSwitcher = () => {
   const { theme, toggleTheme } = useContext(ThemeContext);
-  const { t } = useTranslation();
+  const { t: tGeneral } = useTranslation();
   
   return (
-    <button onClick={toggleTheme}>
+    <button 
+      title={tGeneral('darkToLightTooltip')}
+      onClick={toggleTheme}>
       {theme === "light" ? "🌙" : "☀️"}
     </button>
   );

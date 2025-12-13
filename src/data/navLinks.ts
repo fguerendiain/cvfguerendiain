@@ -1,4 +1,10 @@
-export const navLinks = [
+export interface InavLink {
+  id: string;
+  labelKey: string;
+  hrefKey: string;
+}
+
+export const navLinks: InavLink[] = [
   { id: "about", labelKey: "about.label", hrefKey: "about.href" },
   { id: "experience", labelKey: "experience.label", hrefKey: "experience.href" },
   { id: "projects", labelKey: "projects.label", hrefKey: "projects.href" },

@@ -1,10 +1,11 @@
 // NavTabsDrawer.tsx
 "use client";
 
+import { InavLink } from "@/data/navLinks";
 import { motion } from "framer-motion";
 
 interface NavTabsDrawerProps {
-  navTabs: { id: string; label: string; href: string }[];
+  navTabs: InavLink[];
   isOpen: boolean;
   onClose: () => void;
 }
@@ -38,11 +39,11 @@ export default function NavTabsDrawer({ navTabs, isOpen, onClose }: NavTabsDrawe
           {navTabs.map((link) => (
             <a
               key={link.id}
-              href={link.href}
+              href={link.hrefKey}
               className="hover:underline transition text-black dark:text-white"
               onClick={onClose}
             >
-              {link.label}
+              {link.labelKey}
             </a>
           ))}
         </nav>

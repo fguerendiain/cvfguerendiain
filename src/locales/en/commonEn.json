@@ -1,15 +1,19 @@
 {
   "aboutTitle": "About me",
-  "experienceTitle": "Experience",
-  "projectsTitle": "Projects",
+  "experienceTitle": "Resume",
+  "projectsTitle": "Portfolio",
   "contactTitle": "Contact",
   "skillsTitle": "Skills",
   "skillsFrontEndTitle": "Frontend",
   "skillsTestingTitle": "Testing",
   "skillsToolsTitle": "Tools",
+  "skillsBackendTitle": "BackEnd",
+  "skillsMobileTitle": "Mobile",  
+  "skillsAiToolsTitle": "AI Tools",
   "skillsMetodologiesTitle": "Methodologies and Best Practices",
-  "pdfExportTooltip": "Export PDF",
+  "pdfExportTooltip": "Export PDF in the current language",
   "languajeTitle": "Languages",
   "projectGitLinkMsg": "Go to the project on GitLab",
-  "projectWebLinkMsg": "Go to the project's website"  
+  "projectWebLinkMsg": "Go to the project's website",
+  "darkToLightTooltip": "Change Theme"  
 }

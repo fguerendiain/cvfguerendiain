@@ -6,16 +6,16 @@ import Image from "next/image";
 
 export default function Hero() {
   return (
-    <section className="relative py-20 text-center flex flex-col items-center gap-4 overflow-hidden bg-blue-300 dark:bg-blue-700 rounded-2xl" >
+    <section className="relative py-20 text-center flex flex-col items-center gap-4 overflow-hidden bg-blue-300 dark:bg-blue-950 rounded-2xl" >
       <div className="absolute top-0 left-0 w-full h-full pointer-events-none">
-        <div className="absolute right-30 w-px h-full bg-gray-300"></div>
-        <div className="absolute top-80 left-0 w-full h-px bg-gray-300"></div>
+        <div className="absolute right-30 w-px h-full dark:bg-gray-600 bg-blue-500"></div>
+        <div className="absolute top-80 left-0 w-full h-px dark:bg-gray-600 bg-blue-500"></div>
         <div
-          className="absolute top-[-10%] right-[20%] w-72 h-72 rounded-full border border-gray-300"
+          className="absolute top-[-10%] right-[20%] w-72 h-72 rounded-full border dark:border-gray-600 border-blue-500"
           style={{ transform: "rotate(40deg)" }}
         ></div>
         <div
-          className="absolute top-[20%] right-[-10%] w-72 h-72 rounded-full border border-gray-300"
+          className="absolute top-[20%] right-[-10%] w-72 h-72 rounded-full border dark:border-gray-600 border-blue-500"
           style={{ transform: "rotate(40deg)" }}
         ></div>
       </div>

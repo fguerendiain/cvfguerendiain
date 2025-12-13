@@ -1,17 +1,14 @@
 {
-  "visit": "Visit",
-  "items": {
-    "cvWeb": {
-      "title": "Web Resume",
-      "description": "Personal website built with React, TypeScript and Next.js."
-    },
-    "glossaryFront": {
-      "title": "Japanese Glossary (front)",
-      "description": "Study app with search, filters and pronunciation."
-    },
-    "glossaryApi": {
-      "title": "Japanese Glossary (api)",
-      "description": "BackEnd for Study app."
-    }
+  "cvWeb": {
+    "title": "Web Resume",
+    "description": "Personal website developed with React, TypeScript, and Next.js."
+  },
+  "glossaryFront": {
+    "title": "Nihongo Glossary",
+    "description": "App for studying Japanese with filters, search, and pronunciation, developed with React, TypeScript, and Vite. (work in progress)"
+  },
+  "glossaryApi": {
+    "title": "Nihongo Glossary (API)",
+    "description": "Backend for the study app, developed with TypeScript and NestJS. (work in progress)"
   }
 }

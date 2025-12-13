@@ -1,18 +1,14 @@
 {
-  "title": "Proyectos",
-  "visit": "Visitar",
-  "items": {
-    "cvWeb": {
-      "title": "Currículum Web",
-      "description": "Sitio personal desarrollado con React, TypeScript y Next.js."
-    },
-    "glossaryFront": {
-      "title": "Glosario Japonés",
-      "description": "App para estudiar japonés con filtros, búsquedas y pronunciación."
-    },
-    "glossaryApi": {
-      "title": "Glosario Japonés (api)",
-      "description": "BackEnd para App de estudio."
-    }
+  "cvWeb": {
+    "title": "Currículum Web",
+    "description": "Sitio personal desarrollado con React, TypeScript y Next.js."
+  },
+  "glossaryFront": {
+    "title": "Nihongo Glossary",
+    "description": "App for studying Japanese with CRUD functionality, filters, and search, developed with React, TypeScript, and Vite. (work in progress)"
+  },
+  "glossaryApi": {
+    "title": "Nihongo Glossary (api)",
+    "description": "BackEnd para App de estudio, desarrollado con TypeScript y Nest. (desarrollo en curso)"
   }
 }

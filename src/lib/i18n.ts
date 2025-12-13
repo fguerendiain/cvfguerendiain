@@ -16,15 +16,14 @@ import projectsEn from "@/locales/en/projects.json";
 import languageEs from "@/locales/es/language.json";
 import languageEn from "@/locales/en/language.json";
 
-
 const resources = {
   es: {
     translation: { ...commonEs },
     experience: experienceEs,
-    navLinks: navLinksEs,  
+    navLinks: navLinksEs,
     profile: profileEs,
     projects: projectsEs,
-    language: languageEs
+    language: languageEs,
   },
   en: {
     translation: { ...commonEn },
@@ -32,7 +31,7 @@ const resources = {
     navLinks: navLinksEn,
     profile: profileEn,
     projects: projectsEn,
-    language: languageEn    
+    language: languageEn,
   },
 };
 

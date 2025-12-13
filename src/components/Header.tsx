@@ -2,19 +2,18 @@
 
 import { motion } from "framer-motion";
 import { useState } from "react";
-import ExportPDFButton from "./ExportPDFButton";
+import ExportPDFButton from "./pdf/ExportPDFButton";
 import { ThemeSwitcher } from "./ThemeSwitcher";
 import { LanguageSelector } from "./LanguageSelector";
 import { useTranslation } from "react-i18next";
 import { translateArray } from "@/utils/i18nData";
-import { navLinks } from "@/data/navLinks";
+import { InavLink, navLinks } from "@/data/navLinks";
 import { profile } from "@/data/profile";
-import { Menu, X } from "lucide-react";
 import NavTabsDrawer from "./NavTabsDrower";
 
 export function Header() {
-  const { t } = useTranslation("navLinks");
-  const navTabs = translateArray(t, navLinks, ["id", "labelKey", "hrefKey"]);
+  const { t: tNavLinks } = useTranslation("navLinks");
+  const navTabs: InavLink[] = translateArray(tNavLinks, navLinks, ["id", "labelKey", "hrefKey"]);
   const [drawerOpen, setDrawerOpen] = useState(false);
 
   return (
@@ -34,10 +33,10 @@ export function Header() {
             {navTabs.map((link) => (
               <a
                 key={link.id}
-                href={link.href}
+                href={link.hrefKey}
                 className="hover:underline transition"
               >
-                {link.label}
+                {link.labelKey}
               </a>
             ))}
           </nav>

@@ -1,4 +1,10 @@
-export const projects = [
+export interface IProject{
+    key: string;
+    linkGit?: string;
+    link?: string;
+} 
+
+export const projects: IProject[] = [
   {
     key: "cvWeb",
     linkGit:"https://gitlab.com/fguerendiain33/cvfguerendiain",
@@ -7,7 +13,6 @@ export const projects = [
   {
     key: "glossaryFront",
     linkGit:"https://gitlab.com/fguerendiain33/nihongoglossary",
-    link: "http://http://fguerendiain.tplinkdns.com/",
   },
   {
     key: "glossaryApi",

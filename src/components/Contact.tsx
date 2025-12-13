@@ -1,6 +1,6 @@
 "use client";
 
-import { Mail, Github, Linkedin } from "lucide-react";
+import { Mail, Github, Linkedin, Phone } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { motion } from "framer-motion";
 import { profile } from "@/data/profile";
@@ -14,18 +14,28 @@ export default function Contact() {
     {
       icon: <Mail size={18} />,
       label: "Email",
-      href: profile.email,
+      href: `mailto:${profile.email}`,
     },
     {
-      icon: <Github size={18} />,
-      label: "GitLab",
-      href: profile.github,
+      icon: <Phone size={18} />,
+      label: "Teléfono",
+      href: `tel:${profile.phone}`,
+    },
+    {
+      icon: <Phone size={18} />,
+      label: "WhatsApp",
+      href: `https://wa.me/${profile.phone}`,
     },
     {
       icon: <Linkedin size={18} />,
       label: "LinkedIn",
       href: profile.linkedin,
     },
+    {
+      icon: <Github size={18} />,
+      label: "GitLab",
+      href: profile.github,
+    }
   ];
 
   return (
@@ -37,9 +47,11 @@ export default function Contact() {
       viewport={{ once: true }}
       transition={{ duration: 0.6 }}
     >
-      <h3 className="text-2xl font-semibold mb-6">{tGeneral('contactTitle')}</h3>
-      <p className="text-neutral-700 max-w-xl mx-auto mb-8">
-        {tProfile('contactMsg')}
+      <h3 className="text-2xl font-semibold mb-6">
+        {tGeneral("contactTitle")}
+      </h3>
+      <p className="text-neutral-700 dark:text-neutral-400 max-w-xl mx-auto mb-8">
+        {tProfile("contactMsg")}
       </p>
 
       <div className="flex flex-col sm:flex-row justify-center gap-6">
@@ -60,7 +72,7 @@ export default function Contact() {
                 href={btn.href}
                 target="_blank"
                 rel="noopener noreferrer"
-                className="text-blue-600 hover:text-blue-800 transition-colors duration-200"
+                className="text-blue-600 hover:text-blue-800 transition-colors duration-100"
               >
                 {btn.icon} {btn.label}
               </a>

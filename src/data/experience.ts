@@ -1,4 +1,12 @@
-export const experience = [
+export interface IExperience {
+  id: string;
+  roleKey: string;
+  companyKey: string;
+  periodKey: string;
+  descriptionKey: string;
+}
+
+export const experience: IExperience[] = [
   {
     id: "santanderTecnologiaArgentina_2",
     roleKey: "santanderTecnologiaArgentina_2.role",
