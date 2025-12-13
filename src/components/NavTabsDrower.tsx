@@ -1,4 +1,3 @@
-// NavTabsDrawer.tsx
 "use client";
 
 import { InavLink } from "@/data/navLinks";
@@ -15,13 +14,10 @@ export default function NavTabsDrawer({ navTabs, isOpen, onClose }: NavTabsDrawe
 
   return (
     <div className="fixed inset-0 z-50 flex">
-      {/* Overlay */}
       <div
         className="fixed inset-0 bg-black/50 dark:bg-black/70"
         onClick={onClose}
       />
-
-      {/* Drawer */}
       <motion.div
         initial={{ x: "100%" }}
         animate={{ x: 0 }}

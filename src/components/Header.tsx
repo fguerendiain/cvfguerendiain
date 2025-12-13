@@ -41,13 +41,11 @@ export function Header() {
             ))}
           </nav>
 
-          {/* Botones y drawer toggle */}
           <div className="flex items-center gap-4">
             <LanguageSelector />
             <ExportPDFButton />
             <ThemeSwitcher />
 
-            {/* Botón drawer mobile */}
             <button className="sm:hidden" onClick={() => setDrawerOpen(true)}>
               ☰
             </button>

@@ -36,7 +36,6 @@ export default function ExportPDFButton({ bigStyle }: { bigStyle?: boolean }) {
               "text-base font-semibold",
             ]
           : [
-              // botón chico actual
               "p-2 rounded-md",
               "hover:bg-gray-200 text-gray-700 dark:text-gray-200 dark:hover:bg-gray-700",
             ]

@@ -44,7 +44,6 @@ export default function Experience() {
               transition={{ duration: 0.2, delay: index * 0.1 }}
               className="p-4 border rounded-lg shadow-sm transition-all duration-200 hover:shadow-md space-y-2"
             >
-              {/* Header */}
               <h4 className="text-lg font-medium">
                 {item.roleKey} –{" "}
                 <span className="text-neutral-600">
@@ -56,7 +55,6 @@ export default function Experience() {
                 {item.periodKey}
               </p>
 
-              {/* Content */}
               <AnimatePresence mode="wait">
                 <motion.div
                   key={isOpen ? "description" : "summary"}

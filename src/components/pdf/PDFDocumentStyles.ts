@@ -9,7 +9,6 @@ export const styles = StyleSheet.create({
     color: "#111",
   },
 
-  /* ================= HEADER ================= */
   header: {
     flexDirection: "row",
     justifyContent: "space-between",
@@ -45,7 +44,6 @@ export const styles = StyleSheet.create({
     textDecoration: "none",
   },
 
-  /* ================= SECTIONS ================= */
   section: {
     marginBottom: 18,
   },
@@ -58,7 +56,6 @@ export const styles = StyleSheet.create({
     paddingBottom: 2,
   },
 
-  /* ================= EXPERIENCE ================= */
   experienceItem: {
     marginBottom: 10,
   },
@@ -74,7 +71,6 @@ export const styles = StyleSheet.create({
     marginBottom: 2,
   },
 
-  /* ================= PAGE 2 – TITLES ================= */
   pageTitle: {
     fontSize: 13,
     fontWeight: "bold",
@@ -82,7 +78,6 @@ export const styles = StyleSheet.create({
     marginBottom: 14,
   },
 
-  /* ================= SKILLS GRID ================= */
   skillGrid: {
     flexDirection: "row",
     flexWrap: "wrap",
@@ -121,7 +116,6 @@ export const styles = StyleSheet.create({
     fontSize: 9,
   },
 
-  /* ================= LANGUAGES ================= */
   languagesBlock: {
     marginTop: 30,
     alignItems: "center",
@@ -132,7 +126,6 @@ export const styles = StyleSheet.create({
     marginBottom: 4,
   },
 
-  /* ================= LEGACY (pueden eliminarse luego) ================= */
   grid: {
     flexDirection: "row",
     gap: 24,
