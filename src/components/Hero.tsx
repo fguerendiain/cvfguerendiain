@@ -3,6 +3,7 @@
 import { profile } from "@/data/profile";
 import { motion } from "framer-motion";
 import Image from "next/image";
+import ExportPDFButton from "./pdf/ExportPDFButton";
 
 export default function Hero() {
   return (
@@ -45,6 +46,7 @@ export default function Hero() {
       >
         {profile.role}
       </motion.p>
+      <ExportPDFButton bigStyle/>
     </section>
   );
 }

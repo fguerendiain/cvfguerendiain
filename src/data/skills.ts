@@ -40,7 +40,6 @@ export const skills: ISkills = {
     "Java",
     "Spring",
     "Hibernate",
-    "PHP",
     "SQL",
     "MySQL",
     "PostgreSQL",
@@ -70,10 +69,7 @@ export const skills: ISkills = {
   methodologies: [
     "Clean Code",
     "SOLID",
-    "Atomic Design",
     "Scrum",
-    "Agile",
-    "Microservices architecture",
-    "Root Cause Analysis",
+    "Agile"
   ],
 };

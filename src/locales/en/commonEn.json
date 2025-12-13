@@ -11,6 +11,7 @@
   "skillsMobileTitle": "Mobile",  
   "skillsAiToolsTitle": "AI Tools",
   "skillsMetodologiesTitle": "Methodologies and Best Practices",
+  "pdfExportMsg": "Export PDF",  
   "pdfExportTooltip": "Export PDF in the current language",
   "languajeTitle": "Languages",
   "projectGitLinkMsg": "Go to the project on GitLab",
