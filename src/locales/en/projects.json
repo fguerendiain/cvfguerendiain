@@ -1,0 +1,17 @@
+{
+  "visit": "Visit",
+  "items": {
+    "cvWeb": {
+      "title": "Web Resume",
+      "description": "Personal website built with React, TypeScript and Next.js."
+    },
+    "glossaryFront": {
+      "title": "Japanese Glossary (front)",
+      "description": "Study app with search, filters and pronunciation."
+    },
+    "glossaryApi": {
+      "title": "Japanese Glossary (api)",
+      "description": "BackEnd for Study app."
+    }
+  }
+}

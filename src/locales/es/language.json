@@ -1,0 +1,15 @@
+{
+    "spanish":{
+        "name":"Español",
+        "level":"Nativo"
+    },
+    "english":{
+        "name":"Ingles",
+        "level":"B2+"
+    },
+    "japanesse":{
+        "name":"Japones",
+        "level":"A1",
+        "extra":"Estudios en curso"
+    }
+}

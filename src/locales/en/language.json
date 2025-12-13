@@ -1,0 +1,15 @@
+{
+  "spanish": {
+    "name": "Spanish",
+    "level": "Native"
+  },
+  "english": {
+    "name": "English",
+    "level": "B2+"
+  },
+  "japanesse": {
+    "name": "Japanese",
+    "level": "A1",
+    "extra": "Ongoing studies"
+  }
+}

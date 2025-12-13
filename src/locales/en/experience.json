@@ -1,0 +1,50 @@
+{
+  "santanderTecnologiaArgentina_2": {
+    "role": "Frontend Developer",
+    "company": "Santander Tecnologia Argentina",
+    "period": "March 2024 - December 2025",
+    "description": "ECHEQ Project: Migration and redesign of the web platform for corporate clients, enhancing functionality and user experience in electronic check management. Worked within a microservices architecture, integrating multiple microfrontends to decouple features, optimize performance, facilitate maintenance, and ensure scalability. Participated in over 10 concurrent projects using React, Styled Components, Redux, proprietary UX libraries, and Git. Involved in CI/CD pipelines with Dumbo and code quality assurance with SonarQube. Adjustments were made in the native Android application with Kotlin due to changes implemented on the web platform."
+  },
+  "santanderTecnologiaArgentina_1": {
+    "role": "Frontend Developer",
+    "company": "Santander Tecnologia Argentina",
+    "period": "October 2022 - March 2024",
+    "description": "CLOUDCHEQ Project: Refactoring and migration of an existing project with AWS and React. Provided support and maintenance for legacy projects, ensuring functional continuity and performance improvements."
+  },
+  "santanderTecnologiaArgentina": {
+    "role": "Frontend Developer",
+    "company": "Santander Tecnologia Argentina",
+    "period": "September 2021 - October 2022",
+    "description": "IBDESKPJ Project: Development of banking management system for Banco Santander Brazil, oriented to corporate clients. FrontEnd implementation with Angular and NGRX (Redux), Unit Testing with Jasmine/Karma. Worked under Agile methodology, ensuring code quality and consistent interface."
+  },
+  "laMercantilAndina": {
+    "role": "Frontend Developer",
+    "company": "La Mercantil Andina (Insurance)",
+    "period": "January 2021 - September 2021",
+    "description": "LANIN Project: FrontEnd development of internal client management system using Angular and NGXS (Redux). Integrated with Azure DevOps and Unit Testing with Jasmine/Karma. Agile methodology applied, ensuring regular deliveries and product quality."
+  },
+  "everisArgentina": {
+    "role": "Frontend Developer",
+    "company": "EVERIS Argentina",
+    "period": "August 2020 - December 2020",
+    "description": "PAE Project (Pan American Energy): FrontEnd development using Angular 10, ensuring functionality and quality in corporate applications interface."
+  },
+  "everisArgentina_1": {
+    "role": "Full Stack Developer",
+    "company": "EVERIS Argentina",
+    "period": "October 2019 - August 2020",
+    "description": "SADE Project: Full Stack development of Electronic Documentation Management System for the Government of Buenos Aires. Used Java, Hibernate, Spring, Tomcat, and OracleSQL. Designed, developed, maintained, and implemented the full stack application everis-run-helper-app with NodeJS, TypeScript, and Angular 6 to automate internal processes."
+  },
+  "everisArgentina_2": {
+    "role": "Full Stack Developer",
+    "company": "EVERIS Argentina",
+    "period": "September 2017 - October 2019",
+    "description": "SADE Project: Support and incident management in core and satellite modules of the application. RUN team reference. Analysis and monitoring of incidents on Linux servers and application code. Issue resolution using PL/SQL scripts on Oracle databases. Designed, developed, maintained, and implemented middleware everis-run-helper-api with NodeJS and TypeScript to automate processes. Product control and maintenance in production environment."
+  },
+  "grupoAgg": {
+    "role": "IT Support",
+    "company": "GRUPO AGG",
+    "period": "December 2012 - September 2017",
+    "description": "24/7 IT support for gaming rooms and offices in Buenos Aires. Assembled, configured, maintained, and repaired IT infrastructure (Windows XP/7/10, Windows Server, Linux Mint/Debian/Ubuntu). Task automation, network setup and maintenance, CCTV surveillance systems (Dahua/Geovision), data center setup, internet link testing and vendor management. User and administrative process management, including documentation, budget control, and stock management."
+  }
+}

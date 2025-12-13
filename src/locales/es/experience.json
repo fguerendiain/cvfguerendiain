@@ -1,0 +1,50 @@
+{
+  "santanderTecnologiaArgentina_2": {
+    "role": "Frontend Developer",
+    "company": "Santander Tecnologia Argentina",
+    "period": "Marzo 2024 - Diciembre 2025",
+    "description": "Proyecto ECHEQ: Migración y rediseño de la aplicación web para clientes corporativos, mejorando la funcionalidad y experiencia de usuario en la gestión de cheques electrónicos. Trabajo en arquitectura de microservicios, integrando múltiples microfrontends para desacoplar funcionalidades, optimizar performance, facilitar mantenimiento y asegurar escalabilidad. Participación en más de 10 proyectos simultáneos utilizando React, Styled Components, Redux, librerías UX propias del banco y Git. Involucrado en pipelines CI/CD con Dumbo y aseguramiento de calidad de código mediante SonarQube. Ajustes realizados en la aplicación nativa Android con Kotlin derivados de cambios en la plataforma web."
+  },
+  "santanderTecnologiaArgentina_1": {
+    "role": "Frontend Developer",
+    "company": "Santander Tecnologia Argentina",
+    "period": "Octubre 2022 - Marzo 2024",
+    "description": "Proyecto CLOUDCHEQ: Refactorización y migración de proyecto existente con AWS y React. Soporte y mantenimiento de proyectos legacy, asegurando continuidad funcional y mejoras en performance."
+  },
+  "santanderTecnologiaArgentina": {
+    "role": "Frontend Developer",
+    "company": "Santander Tecnologia Argentina",
+    "period": "Septiembre 2021 - Octubre 2022",
+    "description": "Proyecto IBDESKPJ: Desarrollo de aplicación de gestión bancaria para Banco Santander Brasil, orientada a empresas. Implementación FrontEnd en Angular con NGRX (Redux), Unit Testing con Jasmine/Karma. Trabajo bajo metodología Agile, asegurando calidad de código y consistencia de interfaz."
+  },
+  "laMercantilAndina": {
+    "role": "Frontend Developer",
+    "company": "La Mercantil Andina (Seguros)",
+    "period": "Enero 2021 - Septiembre 2021",
+    "description": "Proyecto LANIN: Desarrollo FrontEnd de sistema de gestión de clientes internos usando Angular y NGXS (Redux). Integración con Azure DevOps y Unit Testing con Jasmine/Karma. Trabajo bajo metodología Agile garantizando entregas periódicas y calidad de producto."
+  },
+  "everisArgentina": {
+    "role": "Frontend Developer",
+    "company": "EVERIS Argentina",
+    "period": "Agosto 2020 - Diciembre 2020",
+    "description": "Proyecto PAE (Pan American Energy): Desarrollo FrontEnd utilizando Angular 10, asegurando funcionalidad y calidad en la interfaz de aplicaciones corporativas."
+  },
+  "everisArgentina_1": {
+    "role": "Full Stack Developer",
+    "company": "EVERIS Argentina",
+    "period": "Octubre 2019 - Agosto 2020",
+    "description": "Proyecto SADE: Desarrollo Full Stack de Sistema de Administración de Documentación Electrónica para Gobierno de la Ciudad de Buenos Aires. Uso de Java, Hibernate, Spring, Tomcat y OracleSQL. Diseño, desarrollo, mantenimiento e implementación de aplicación full stack everis-run-helper-app sobre NodeJS, TypeScript y Angular 6 para automatización de procesos internos."
+  },
+  "everisArgentina_2": {
+    "role": "Full Stack Developer",
+    "company": "EVERIS Argentina",
+    "period": "Septiembre 2017 - Octubre 2019",
+    "description": "Proyecto SADE: Soporte y gestión de incidencias en módulos core y satélites de la aplicación. Referente de equipo RUN. Análisis y monitoreo de incidencias en servidores Linux y código de aplicaciones. Resolución de inconvenientes mediante scripts PL/SQL sobre Oracle. Diseño, desarrollo, mantenimiento e implementación de middleware everis-run-helper-api sobre NodeJS y TypeScript para automatización de procesos. Control y mantenimiento del producto en ambiente productivo."
+  },
+  "grupoAgg": {
+    "role": "IT Support",
+    "company": "GRUPO AGG",
+    "period": "Diciembre 2012 - Septiembre 2017",
+    "description": "Soporte 24/7 para salas de juego y oficinas en Capital Federal. Armado, configuración, mantenimiento y reparación de parque informático (Windows XP/7/10, Windows Server, Linux Mint/Debian/Ubuntu). Automatización de tareas, armado y mantenimiento de redes, sistemas de vigilancia CCTV (Dahua/Geovision), centro de cómputos, control de enlaces de Internet y gestión de central telefónica. Control de usuarios y procesos administrativos, incluyendo documentación, presupuesto y stock."
+  }
+}

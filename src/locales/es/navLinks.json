@@ -1,0 +1,26 @@
+{
+    "about": {
+        "label":"Sobre mi",
+        "href":"#about"
+    },
+    "experience": {
+        "label":"Experiencia",
+        "href":"#experience"
+    },
+    "projects": {
+        "label":"Proyectos",
+        "href":"#projects"
+    },
+    "skills": {
+        "label":"Habilidades",
+        "href":"#skills"
+    },    
+    "language": {
+        "label":"Idiomas",
+        "href":"#language"
+    },      
+    "contact": {
+        "label":"Contacto",
+        "href":"#contact"
+    }
+}

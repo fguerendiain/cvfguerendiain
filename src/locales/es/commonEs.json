@@ -1,0 +1,15 @@
+{
+  "aboutTitle": "Sobre mí",
+  "experienceTitle": "Experiencia",
+  "projectsTitle": "Proyectos",
+  "contactTitle": "Contacto",  
+  "skillsTitle": "Habilidades",
+  "skillsFrontEndTitle": "Frontend",
+  "skillsTestingTitle": "Testing",
+  "skillsToolsTitle": "Herramientas",
+  "skillsMetodologiesTitle": "Metodologías y buenas prácticas",
+  "pdfExportTooltip": "Exportar PDF",
+  "languajeTitle": "Idiomas",
+  "projectGitLinkMsg": "Ir al proyecto en GitLab",
+  "projectWebLinkMsg": "Ir al sitio web del proyecto"
+}
