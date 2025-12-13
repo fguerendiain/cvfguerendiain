@@ -3,48 +3,56 @@
     "role": "Frontend Developer",
     "company": "Santander Tecnologia Argentina",
     "period": "Marzo 2024 - Diciembre 2025",
-    "description": "Proyecto ECHEQ: Migración y rediseño de la aplicación web para clientes corporativos, mejorando la funcionalidad y experiencia de usuario en la gestión de cheques electrónicos. Trabajo en arquitectura de microservicios, integrando múltiples microfrontends para desacoplar funcionalidades, optimizar performance, facilitar mantenimiento y asegurar escalabilidad. Participación en más de 10 proyectos simultáneos utilizando React, Styled Components, Redux, librerías UX propias del banco y Git. Involucrado en pipelines CI/CD con Dumbo y aseguramiento de calidad de código mediante SonarQube. Ajustes realizados en la aplicación nativa Android con Kotlin derivados de cambios en la plataforma web."
+    "summary": "Aplicación bancaria para clientes corporativos orientada a la gestión de cheques electrónicos, desarrollada con React y arquitectura de micro frontends.",
+    "description": "Proyecto ECHEQ.\n\n- Implementación de arquitectura de micro frontends para desacoplar funcionalidades y facilitar escalabilidad y mantenimiento.\n- Trabajo simultáneo en más de 10 proyectos utilizando React y TypeScript.\n- Uso de Redux, Styled Components y librerías UX internas del banco.\n- Integración con pipelines CI/CD (Dumbo) y control de calidad mediante SonarQube.\n- Colaboración con equipos mobile realizando ajustes en aplicación Android (Kotlin) derivados de cambios en la plataforma web."
   },
   "santanderTecnologiaArgentina_1": {
     "role": "Frontend Developer",
     "company": "Santander Tecnologia Argentina",
     "period": "Octubre 2022 - Marzo 2024",
-    "description": "Proyecto CLOUDCHEQ: Refactorización y migración de proyecto existente con AWS y React. Soporte y mantenimiento de proyectos legacy, asegurando continuidad funcional y mejoras en performance."
+    "summary": "Migración y refactorización de aplicación bancaria existente, con foco en continuidad operativa y mejoras de performance.",
+    "description": "Proyecto CLOUDCHEQ.\n\n- Refactorización y migración de aplicación existente utilizando React.\n- Soporte y mantenimiento de proyectos legacy asegurando continuidad funcional.\n- Mejoras de performance y calidad de código en entornos productivos.\n- Trabajo bajo metodología ágil en equipos multidisciplinarios."
   },
   "santanderTecnologiaArgentina": {
     "role": "Frontend Developer",
     "company": "Santander Tecnologia Argentina",
     "period": "Septiembre 2021 - Octubre 2022",
-    "description": "Proyecto IBDESKPJ: Desarrollo de aplicación de gestión bancaria para Banco Santander Brasil, orientada a empresas. Implementación FrontEnd en Angular con NGRX (Redux), Unit Testing con Jasmine/Karma. Trabajo bajo metodología Agile, asegurando calidad de código y consistencia de interfaz."
+    "summary": "Desarrollo de aplicación bancaria para empresas del Banco Santander Brasil utilizando Angular.",
+    "description": "Proyecto IBDESKPJ para Banco Santander Brasil.\n\n- Desarrollo de aplicación bancaria orientada a empresas.\n- Implementación frontend con Angular y NGRX.\n- Desarrollo de unit tests con Jasmine y Karma.\n- Trabajo bajo metodología Agile garantizando calidad de código y consistencia de interfaz."
   },
   "laMercantilAndina": {
     "role": "Frontend Developer",
-    "company": "La Mercantil Andina (Seguros)",
+    "company": "Mercantil Andina (Seguros)",
     "period": "Enero 2021 - Septiembre 2021",
-    "description": "Proyecto LANIN: Desarrollo FrontEnd de sistema de gestión de clientes internos usando Angular y NGXS (Redux). Integración con Azure DevOps y Unit Testing con Jasmine/Karma. Trabajo bajo metodología Agile garantizando entregas periódicas y calidad de producto."
+    "summary": "Sistema interno de gestión de clientes para compañía aseguradora, desarrollado con Angular.",
+    "description": "Proyecto LANIN.\n\n- Desarrollo frontend de sistema interno de gestión de clientes.\n- Uso de Angular y NGXS.\n- Integración con Azure DevOps.\n- Desarrollo de unit tests con Jasmine y Karma.\n- Trabajo bajo metodología Agile con entregas periódicas."
   },
   "everisArgentina": {
     "role": "Frontend Developer",
     "company": "EVERIS Argentina",
     "period": "Agosto 2020 - Diciembre 2020",
-    "description": "Proyecto PAE (Pan American Energy): Desarrollo FrontEnd utilizando Angular 10, asegurando funcionalidad y calidad en la interfaz de aplicaciones corporativas."
+    "summary": "Desarrollo frontend de aplicaciones corporativas para el sector energético.",
+    "description": "Proyecto PAE (Pan American Energy).\n\n- Desarrollo frontend utilizando Angular 10.\n- Implementación de interfaces para aplicaciones corporativas.\n- Aseguramiento de funcionalidad y calidad visual en entornos productivos."
   },
   "everisArgentina_1": {
     "role": "Full Stack Developer",
     "company": "EVERIS Argentina",
     "period": "Octubre 2019 - Agosto 2020",
-    "description": "Proyecto SADE: Desarrollo Full Stack de Sistema de Administración de Documentación Electrónica para Gobierno de la Ciudad de Buenos Aires. Uso de Java, Hibernate, Spring, Tomcat y OracleSQL. Diseño, desarrollo, mantenimiento e implementación de aplicación full stack everis-run-helper-app sobre NodeJS, TypeScript y Angular 6 para automatización de procesos internos."
+    "summary": "Desarrollo full stack de sistema de documentación electrónica para organismo gubernamental.",
+    "description": "Proyecto SADE para Gobierno de la Ciudad de Buenos Aires.\n\n- Desarrollo full stack de sistema de administración de documentación electrónica.\n- Uso de Java, Spring, Hibernate y Oracle SQL.\n- Desarrollo de herramientas internas con Node.js, TypeScript y Angular para automatización de procesos."
   },
   "everisArgentina_2": {
     "role": "Full Stack Developer",
     "company": "EVERIS Argentina",
     "period": "Septiembre 2017 - Octubre 2019",
-    "description": "Proyecto SADE: Soporte y gestión de incidencias en módulos core y satélites de la aplicación. Referente de equipo RUN. Análisis y monitoreo de incidencias en servidores Linux y código de aplicaciones. Resolución de inconvenientes mediante scripts PL/SQL sobre Oracle. Diseño, desarrollo, mantenimiento e implementación de middleware everis-run-helper-api sobre NodeJS y TypeScript para automatización de procesos. Control y mantenimiento del producto en ambiente productivo."
+    "summary": "Soporte, mantenimiento y automatización de procesos en sistema crítico gubernamental.",
+    "description": "Proyecto SADE.\n\n- Soporte y gestión de incidencias en ambientes productivos.\n- Referente del equipo RUN.\n- Automatización de procesos mediante Node.js y TypeScript.\n- Análisis y resolución de incidencias en entornos Linux y bases de datos Oracle."
   },
   "grupoAgg": {
     "role": "IT Support",
     "company": "GRUPO AGG",
     "period": "Diciembre 2012 - Septiembre 2017",
-    "description": "Soporte 24/7 para salas de juego y oficinas en Capital Federal. Armado, configuración, mantenimiento y reparación de parque informático (Windows XP/7/10, Windows Server, Linux Mint/Debian/Ubuntu). Automatización de tareas, armado y mantenimiento de redes, sistemas de vigilancia CCTV (Dahua/Geovision), centro de cómputos, control de enlaces de Internet y gestión de central telefónica. Control de usuarios y procesos administrativos, incluyendo documentación, presupuesto y stock."
+    "summary": "Soporte técnico integral y administración de infraestructura IT.",
+    "description": "Soporte 24/7 para salas de juego y oficinas.\n\n- Armado, configuración y mantenimiento de parque informático (Windows y Linux).\n- Automatización de tareas y mantenimiento de redes.\n- Gestión de sistemas de vigilancia CCTV y centro de cómputos.\n- Control de usuarios, documentación, presupuesto y stock."
   }
 }

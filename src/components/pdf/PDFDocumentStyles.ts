@@ -9,31 +9,106 @@ export const styles = StyleSheet.create({
     color: "#111",
   },
 
+  /* ================= HEADER ================= */
   header: {
     flexDirection: "row",
-    alignItems: "center",
-    marginBottom: 30,
+    justifyContent: "space-between",
+    marginBottom: 20,
+    backgroundColor: "#8ec5ff",
+    padding: 8,
+    borderRadius: 10
   },
 
-  headerName: { fontSize: 18, fontWeight: "bold", marginBottom: 10 },
-  headerRole: { fontSize: 12, color: "#444" },
-
-  columns: {
-    flexDirection: "row",
-    gap: 16,
+  headerLeft: {
+    flex: 1,
   },
 
-  leftCol: { width: "30%" },
-  rightCol: { width: "70%" },
+  headerRight: {
+    fontSize: 9,
+    textAlign: "right",
+    gap: 2,
+  },
 
-  section: { marginBottom: 20 },
+  headerName: {
+    fontSize: 18,
+    fontWeight: "bold",
+    marginBottom: 4,
+  },
+
+  headerRole: {
+    fontSize: 12,
+    color: "#444",
+  },
+
+  link: {
+    color: "#2563eb",
+    textDecoration: "none",
+  },
+
+  /* ================= SECTIONS ================= */
+  section: {
+    marginBottom: 18,
+  },
 
   subtitle: {
     fontSize: 11,
     fontWeight: "bold",
-    marginBottom: 4,
+    marginBottom: 6,
     borderBottom: "1 solid #ddd",
     paddingBottom: 2,
+  },
+
+  /* ================= EXPERIENCE ================= */
+  experienceItem: {
+    marginBottom: 10,
+  },
+
+  experienceRole: {
+    fontSize: 11,
+    fontWeight: "bold",
+  },
+
+  experiencePeriod: {
+    fontSize: 9,
+    color: "#666",
+    marginBottom: 2,
+  },
+
+  /* ================= PAGE 2 – TITLES ================= */
+  pageTitle: {
+    fontSize: 13,
+    fontWeight: "bold",
+    textAlign: "center",
+    marginBottom: 14,
+  },
+
+  /* ================= SKILLS GRID ================= */
+  skillGrid: {
+    flexDirection: "row",
+    flexWrap: "wrap",
+    justifyContent: "center",
+    gap: 10,
+  },
+
+  skillBox: {
+    width: "30%",
+    border: "1 solid #ddd",
+    borderRadius: 6,
+    padding: 8,
+    backgroundColor: "#d0d4db"
+  },
+
+  skillBoxTitle: {
+    fontSize: 10,
+    fontWeight: "bold",
+    textAlign: "center",
+    marginBottom: 6,
+  },
+
+  badgeContainer: {
+    flexDirection: "row",
+    flexWrap: "wrap",
+    justifyContent: "center",
   },
 
   badge: {
@@ -46,6 +121,34 @@ export const styles = StyleSheet.create({
     fontSize: 9,
   },
 
-  experienceRole: { fontSize: 11, fontWeight: "bold" },
-  experiencePeriod: { fontSize: 9, color: "#666" },
+  /* ================= LANGUAGES ================= */
+  languagesBlock: {
+    marginTop: 30,
+    alignItems: "center",
+  },
+
+  languageItem: {
+    fontSize: 10,
+    marginBottom: 4,
+  },
+
+  /* ================= LEGACY (pueden eliminarse luego) ================= */
+  grid: {
+    flexDirection: "row",
+    gap: 24,
+  },
+
+  gridCol: {
+    width: "50%",
+  },
+
+  gridTitle: {
+    fontSize: 10,
+    fontWeight: "bold",
+    marginBottom: 4,
+  },
+
+  skillGroup: {
+    marginBottom: 10,
+  },
 });

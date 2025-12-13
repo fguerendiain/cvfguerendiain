@@ -11,10 +11,12 @@
   "skillsMobileTitle": "Mobile",  
   "skillsAiToolsTitle": "AI Tools",
   "skillsMetodologiesTitle": "Methodologies and Best Practices",
+  "skillsSoftSkillsTitle": "Soft skills",
   "pdfExportMsg": "Export PDF",  
   "pdfExportTooltip": "Export PDF in the current language",
+  "pdfGoToWebSite": "franco.guerendiain.com.ar",
   "languajeTitle": "Languages",
   "projectGitLinkMsg": "Go to the project on GitLab",
   "projectWebLinkMsg": "Go to the project's website",
-  "darkToLightTooltip": "Change Theme"  
+  "darkToLightTooltip": "Change Theme"
 }

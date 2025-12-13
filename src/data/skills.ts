@@ -6,6 +6,7 @@ export interface ISkills {
   tools: string[];
   aiTools: string[];
   methodologies: string[];
+  softSkills: string[]
 }
 
 export const skills: ISkills = {
@@ -14,62 +15,48 @@ export const skills: ISkills = {
     "Next.js",
     "Angular",
     "TypeScript",
-    "JavaScript",
-    "HTML",
-    "CSS",
-    "Tailwind CSS",
-    "Styled Components",
-    "shadcn/ui",
-    "Zustand",
+    "Microfrontends (Single SPA)",
     "Redux",
-    "NGXS",
-    "NGRX",
-    "Microfrontends",
-    "Bootstrap",
+    "Zustand",
+    "Styled Components",
+    "Tailwind CSS"
   ],
   testing: [
     "Jest",
     "React Testing Library",
-    "Unit Testing Angular (Jasmine/Karma)",
-    "Mocking",
-    "SonarQube (code quality)",
+    "Angular Unit Testing (Jasmine / Karma)",
+    "SonarQube"
   ],
   backend: [
     "Node.js",
     "Express",
-    "Java",
-    "Spring",
-    "Hibernate",
-    "SQL",
-    "MySQL",
-    "PostgreSQL",
-    "Oracle SQL",
-    "RESTful APIs",
-    "SOAP",
-    "Mule ESB",
+    "REST APIs",
+    "SQL (PostgreSQL / Oracle)"
   ],
-  mobile: ["Android (Kotlin básico)"],
+  mobile: [
+    "Android (Kotlin básico)"
+  ],
   tools: [
     "Git",
-    "GitLab",
+    "CI/CD",
     "Docker",
-    "CI/CD (Dumbo, Azure DevOps, Jenkins)",
     "Figma",
-    "Linux",
-    "Windows",
-    "VS Code",
-    "Visual Studio",
-    "Eclipse",
-    "SoapUI",
-    "Apache Solr",
-    "Maven",
-    "Tomcat",
+    "Linux"
   ],
-  aiTools: ["GitHub Copilot", "ChatGPT / GPT-4", "Otros LLMs en modo Agent"],
+  aiTools: [
+    "GitHub Copilot",
+    "ChatGPT / GPT-4"
+  ],
   methodologies: [
     "Clean Code",
     "SOLID",
     "Scrum",
     "Agile"
   ],
+  softSkills: [
+    "Trabajo en equipo",
+    "Comunicación efectiva",
+    "Colaboración con producto y negocio",
+    "Autonomía y toma de decisiones"
+  ]
 };

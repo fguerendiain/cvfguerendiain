@@ -20,6 +20,7 @@ export default function Skills() {
     tools: "skillsToolsTitle",
     aiTools: "skillsAiToolsTitle",
     methodologies: "skillsMetodologiesTitle",
+    softSkills: "skillsSoftSkillsTitle"
   };
 
   return (

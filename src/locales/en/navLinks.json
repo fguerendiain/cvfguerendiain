@@ -7,10 +7,6 @@
         "label":"Resume",
         "href":"#experience"
     },
-    "projects": {
-        "label":"Portfolio",
-        "href":"#projects"
-    },
     "skills": {
         "label":"Skills",
         "href":"#skills"
@@ -19,6 +15,10 @@
         "label":"Language",
         "href":"#language"
     },      
+    "projects": {
+        "label":"Portfolio",
+        "href":"#projects"
+    },
     "contact": {
         "label":"Contact",
         "href":"#contact"
