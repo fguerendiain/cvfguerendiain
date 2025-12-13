@@ -13,7 +13,7 @@ export default function Languages() {
 
 
   return (
-    <section id='language' className="py-8 px-4 sm:px-6 lg:px-8">
+    <section id='language' className="py-16 px-4 sm:px-6 lg:px-8">
       <h3 className="text-2xl font-semibold mb-6">{tGeneral('languajeTitle')}</h3>
       <div className="space-y-4">
         {langs.map((lang) => (

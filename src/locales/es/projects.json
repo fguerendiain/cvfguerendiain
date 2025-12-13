@@ -5,7 +5,7 @@
   },
   "glossaryFront": {
     "title": "Nihongo Glossary",
-    "description": "App for studying Japanese with CRUD functionality, filters, and search, developed with React, TypeScript, and Vite. (work in progress)"
+    "description": "App para estudiar japonés con CRUD, filtros y búsquedas desarrollado con React, TypeScript y Vite. (desarrollo en curso)"
   },
   "glossaryApi": {
     "title": "Nihongo Glossary (api)",
