@@ -131,7 +131,7 @@ export function PDFDocument() {
               <View style={styles.badgeContainer}>
                 {skills[category].map((skill) => (
                   <Text key={skill} style={styles.badge}>
-                    {skill}
+                    {tGeneral(skill)}
                   </Text>
                 ))}
               </View>

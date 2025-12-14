@@ -2,7 +2,6 @@
 
 import { profile } from "@/data/profile";
 import { motion } from "framer-motion";
-import Image from "next/image";
 import ExportPDFButton from "./pdf/ExportPDFButton";
 
 export default function Hero() {
@@ -21,7 +20,7 @@ export default function Hero() {
         ></div>
       </div>
 
-      <Image
+      <img
         src="/avatar.webp"
         alt="Foto de Franco Guerendiain"
         width={160}

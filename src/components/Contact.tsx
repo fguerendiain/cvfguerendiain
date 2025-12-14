@@ -1,6 +1,6 @@
 "use client";
 
-import { Mail, Github, Linkedin, Phone } from "lucide-react";
+import { Mail, Github, Linkedin, Phone, MessageCircle } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { motion } from "framer-motion";
 import { profile } from "@/data/profile";
@@ -22,7 +22,7 @@ export default function Contact() {
       href: `tel:${profile.phone}`,
     },
     {
-      icon: <Phone size={18} />,
+      icon: <MessageCircle size={18} />,
       label: "WhatsApp",
       href: `https://wa.me/${profile.phone}`,
     },
