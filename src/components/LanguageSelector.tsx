@@ -16,10 +16,20 @@ export const LanguageSelector = () => {
 
   useEffect(() => {
     if (typeof window === "undefined") return;
-    const storedLang = localStorage.getItem("lang") as "es" | "en" | null;
-    if (storedLang && storedLang !== lang) {
-      setLang(storedLang);
-      i18n.changeLanguage(storedLang);
+
+    const saved = localStorage.getItem("lang");
+    if (saved && saved !== i18n.language) {
+      i18n.changeLanguage(saved).catch(() => {});
+      return;
+    }
+
+    const navLang = navigator.language.slice(0, 2);
+    if (navLang === "es" || navLang === "en") {
+      if (navLang !== i18n.language) {
+        i18n.changeLanguage(navLang).catch(() => {});
+      }
+    } else {
+      if (i18n.language !== "en") i18n.changeLanguage("en").catch(() => {});
     }
   }, []);
 
@@ -44,7 +54,7 @@ export const LanguageSelector = () => {
     <div className="relative" ref={ref}>
       <button
         onClick={() => setOpen(!open)}
-        className="p-1 rounded border hover:bg-gray-200 dark:hover:bg-gray-700 flex items-center"
+        className="cursor-pointer p-2 rounded-md hover:bg-gray-300 text-gray-700 dark:text-gray-200 dark:hover:bg-gray-700"
       >
         <ReactCountryFlag
           countryCode={languages.find((l) => l.code === lang)?.countryCode || "AR"}

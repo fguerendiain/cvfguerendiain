@@ -1,21 +1,21 @@
 {
   "santanderTecnologiaArgentina_2": {
     "role": "Frontend Developer",
-    "company": "Santander Tecnologia Argentina",
+    "company": "Santander Tecnología Argentina",
     "period": "Marzo 2024 - Diciembre 2025",
     "summary": "Aplicación bancaria para clientes corporativos orientada a la gestión de cheques electrónicos, desarrollada con React y arquitectura de micro frontends.",
-    "description": "Proyecto ECHEQ.\n\n- Implementación de arquitectura de micro frontends para desacoplar funcionalidades y facilitar escalabilidad y mantenimiento.\n- Trabajo simultáneo en más de 10 proyectos utilizando React y TypeScript.\n- Uso de Redux, Styled Components y librerías UX internas del banco.\n- Integración con pipelines CI/CD (Dumbo) y control de calidad mediante SonarQube.\n- Colaboración con equipos mobile realizando ajustes en aplicación Android (Kotlin) derivados de cambios en la plataforma web."
+    "description": "Proyecto ECHEQ.\n\n- Implementación de arquitectura de micro frontends para desacoplar funcionalidades y facilitar escalabilidad y mantenimiento.\n- Trabajo simultáneo en más de 10 proyectos utilizando React y TypeScript.\n- Uso de Redux, Styled Components y bibliotecas UX internas del banco.\n- Integración con pipelines CI/CD (Dumbo) y control de calidad mediante SonarQube.\n- Colaboración con equipos mobile, aplicando ajustes en la aplicación Android (Kotlin) derivados de cambios en la plataforma web."
   },
   "santanderTecnologiaArgentina_1": {
     "role": "Frontend Developer",
-    "company": "Santander Tecnologia Argentina",
+    "company": "Santander Tecnología Argentina",
     "period": "Octubre 2022 - Marzo 2024",
-    "summary": "Migración y refactorización de aplicación bancaria existente, con foco en continuidad operativa y mejoras de performance.",
-    "description": "Proyecto CLOUDCHEQ.\n\n- Refactorización y migración de aplicación existente utilizando React.\n- Soporte y mantenimiento de proyectos legacy asegurando continuidad funcional.\n- Mejoras de performance y calidad de código en entornos productivos.\n- Trabajo bajo metodología ágil en equipos multidisciplinarios."
+    "summary": "Migración y refactorización de aplicación bancaria existente, con foco en continuidad operativa y mejoras de rendimiento.",
+    "description": "Proyecto CLOUDCHEQ.\n\n- Refactorización y migración de aplicación existente utilizando React.\n- Soporte y mantenimiento de proyectos legacy asegurando continuidad funcional.\n- Mejoras de rendimiento y calidad de código en entornos productivos.\n- Trabajo bajo metodología ágil en equipos multidisciplinarios."
   },
   "santanderTecnologiaArgentina": {
     "role": "Frontend Developer",
-    "company": "Santander Tecnologia Argentina",
+    "company": "Santander Tecnología Argentina",
     "period": "Septiembre 2021 - Octubre 2022",
     "summary": "Desarrollo de aplicación bancaria para empresas del Banco Santander Brasil utilizando Angular.",
     "description": "Proyecto IBDESKPJ para Banco Santander Brasil.\n\n- Desarrollo de aplicación bancaria orientada a empresas.\n- Implementación frontend con Angular y NGRX.\n- Desarrollo de unit tests con Jasmine y Karma.\n- Trabajo bajo metodología Agile garantizando calidad de código y consistencia de interfaz."
@@ -32,7 +32,7 @@
     "company": "EVERIS Argentina",
     "period": "Agosto 2020 - Diciembre 2020",
     "summary": "Desarrollo frontend de aplicaciones corporativas para el sector energético.",
-    "description": "Proyecto PAE (Pan American Energy).\n\n- Desarrollo frontend utilizando Angular 10.\n- Implementación de interfaces para aplicaciones corporativas.\n- Aseguramiento de funcionalidad y calidad visual en entornos productivos."
+    "description": "Proyecto PAE (Pan American Energy).\n\n- Desarrollo frontend utilizando Angular 10.\n- Implementación de interfaces para aplicaciones corporativas.\n- Control de funcionalidad y calidad visual en entornos productivos."
   },
   "everisArgentina_1": {
     "role": "Full Stack Developer",

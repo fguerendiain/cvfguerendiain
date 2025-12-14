@@ -54,9 +54,9 @@ export const skills: ISkills = {
     "Agile"
   ],
   softSkills: [
-    "Trabajo en equipo",
-    "Comunicación efectiva",
-    "Colaboración con producto y negocio",
-    "Autonomía y toma de decisiones"
+    "softSkillsTeamWork",
+    "softSkillsCommunication",
+    "softSkillsProductAndBusiness",
+    "softSkillsAutonomy"
   ]
 };

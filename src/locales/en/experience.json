@@ -17,8 +17,8 @@
     "role": "Frontend Developer",
     "company": "Santander Tecnología Argentina",
     "period": "September 2021 - October 2022",
-    "summary": "Development of a corporate banking application for Banco Santander Brazil using Angular.",
-    "description": "IBDESKPJ Project for Banco Santander Brazil.\n\n- Development of a corporate-oriented banking application.\n- Frontend implementation with Angular and NGRX.\n- Unit test development using Jasmine and Karma.\n- Agile methodology work ensuring code quality and interface consistency."
+    "summary": "Corporate banking application development for Banco Santander Brasil using Angular.",
+    "description": "IBDESKPJ Project for Banco Santander Brasil.\n\n- Development of a corporate-oriented banking application.\n- Frontend implementation with Angular and NGRX.\n- Unit test development using Jasmine and Karma.\n- Agile methodology work ensuring code quality and interface consistency."
   },
   "laMercantilAndina": {
     "role": "Frontend Developer",
@@ -46,7 +46,7 @@
     "company": "EVERIS Argentina",
     "period": "September 2017 - October 2019",
     "summary": "Support, maintenance, and process automation in a critical government system.",
-    "description": "SADE Project.\n\n- Support and incident management in production environments.\n- Team RUN reference.\n- Process automation using Node.js and TypeScript.\n- Analysis and resolution of incidents in Linux environments and Oracle databases."
+    "description": "SADE Project.\n\n- Support and incident management in production environments.\n- RUN Team reference person.\n- Process automation using Node.js and TypeScript.\n- Analysis and resolution of incidents in Linux environments and Oracle databases."
   },
   "grupoAgg": {
     "role": "IT Support",

@@ -88,7 +88,7 @@ export function PDFDocument() {
               </Link>
             </Text>
             <Text>
-              {tGeneral('GitHubLinkTitle')}:
+              {tGeneral('gitHubLinkTitle')}:
               <Link
                 src={profile.github}
                 style={{ textDecoration: "none", color: "#19429b" }}

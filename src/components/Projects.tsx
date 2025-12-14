@@ -36,7 +36,7 @@ export default function Projects() {
             {proj.link && (
               <button
                 onClick={() => window.open(proj.link, "_blank")}
-                className="inline-flex items-center gap-2 mt-2 px-3 py-1 border rounded-lg text-neutral-700 dark:text-neutral-400 hover:bg-gray-100 dark:hover:bg-neutral-800 transition"
+                className="cursor-pointer inline-flex items-center gap-2 mr-2 mt-2 px-3 py-1 border rounded-lg text-neutral-700 dark:text-neutral-400 hover:bg-gray-100 dark:hover:bg-neutral-800 transition"
                 title={tGeneral('projectWebLinkMsg')}
               >
                 <Globe className="w-4 h-4" />
@@ -46,7 +46,7 @@ export default function Projects() {
             {proj.linkGit && (
               <button
                 onClick={() => window.open(proj.linkGit, "_blank")}
-                className="inline-flex items-center gap-2 mt-2 px-3 py-1 border rounded-lg text-neutral-700 dark:text-neutral-400 hover:bg-gray-100 dark:hover:bg-neutral-800 transition"
+                className="cursor-pointer inline-flex items-center gap-2 mt-2 px-3 py-1 border rounded-lg text-neutral-700 dark:text-neutral-400 hover:bg-gray-100 dark:hover:bg-neutral-800 transition"
                 title={tGeneral('projectGitLinkMsg')}
               >
                 <Gitlab className="w-4 h-4" />

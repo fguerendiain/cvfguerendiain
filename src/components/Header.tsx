@@ -34,7 +34,7 @@ export function Header() {
               <a
                 key={link.id}
                 href={link.hrefKey}
-                className="hover:underline transition"
+                className="cursor-pointer p-2 rounded-md hover:bg-gray-300 text-gray-700 dark:text-gray-200 dark:hover:bg-gray-700"
               >
                 {link.labelKey}
               </a>

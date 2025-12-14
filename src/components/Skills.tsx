@@ -46,7 +46,7 @@ export default function Skills() {
                     variant="secondary"
                     className="transform transition duration-100 hover:scale-105"
                   >
-                    {skill}
+                    {tGeneral(skill)}
                   </Badge>
                 </motion.div>
               ))}

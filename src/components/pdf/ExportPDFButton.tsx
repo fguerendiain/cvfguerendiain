@@ -26,7 +26,7 @@ export default function ExportPDFButton({ bigStyle }: { bigStyle?: boolean }) {
       onClick={handleExportPDF}
       title={tGeneral("pdfExportTooltip")}
       className={clsx(
-        "flex items-center gap-2 transition-all duration-200",
+        "cursor-pointer flex items-center gap-2 transition-all duration-200",
         bigStyle
           ? [
               "px-6 py-4",
@@ -37,7 +37,7 @@ export default function ExportPDFButton({ bigStyle }: { bigStyle?: boolean }) {
             ]
           : [
               "p-2 rounded-md",
-              "hover:bg-gray-200 text-gray-700 dark:text-gray-200 dark:hover:bg-gray-700",
+              "hover:bg-gray-300 text-gray-700 dark:text-gray-200 dark:hover:bg-gray-700",
             ]
       )}
     >
