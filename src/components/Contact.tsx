@@ -13,27 +13,27 @@ export default function Contact() {
   const buttons = [
     {
       icon: <Mail size={18} />,
-      label: "Email",
+      label: tGeneral("contactButtonLableEmail"),
       href: `mailto:${profile.email}`,
     },
     {
       icon: <Phone size={18} />,
-      label: "Teléfono",
+      label: tGeneral("contactButtonLablePhone"),
       href: `tel:${profile.phone}`,
     },
     {
       icon: <MessageCircle size={18} />,
-      label: "WhatsApp",
+      label: tGeneral("contactButtonLableWhatsapp"),
       href: `https://wa.me/${profile.phone}`,
     },
     {
       icon: <Linkedin size={18} />,
-      label: "LinkedIn",
+      label: tGeneral("contactButtonLableLinkedIn"),
       href: profile.linkedin,
     },
     {
       icon: <Github size={18} />,
-      label: "GitLab",
+      label: tGeneral("contactButtonLableGitLab"),
       href: profile.github,
     }
   ];
