@@ -1,4 +1,11 @@
 {
+  "r2": {
+    "role": "Sr Software Engineer / Front End Architect",
+    "company": "R2",
+    "period": "February 2026 - Present",
+    "summary": "Design of highly scalable frontend architectures and distributed systems for mission-critical applications, with a focus on SSR, React, and third-party platform integrations.",
+    "description": "Frontend architecture and development in a high-growth environment.\n\n- Design and implementation of scalable frontend architectures using React and Server-Side Rendering (SSR), strategically selecting the right tools based on the problem to solve.\n- Development and maintenance of APIs to integrate with backend systems and third-party platforms.\n- Implementation of distributed architecture patterns to improve scalability, fault tolerance, and system flexibility.\n- Integration of frontend features into mission-critical applications with tight deadlines.\n- Contribution to company-wide technical standards and reliability improvements.\n- Promotion of a zero-bug quality culture through strong engineering practices.\n- Security-first mindset applied across all technical decisions.\n- Technical mentorship and promotion of a culture of learning, growth, and accountability within the team.\n- Cross-team collaboration to build internal tools that improve overall productivity."
+  },
   "santanderTecnologiaArgentina_2": {
     "role": "Frontend Developer",
     "company": "Santander Tecnología Argentina",

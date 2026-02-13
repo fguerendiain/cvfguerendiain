@@ -11,6 +11,11 @@ export const projects: IProject[] = [
     link: "https://franco.guerendiain.com.ar",
   },
   {
+    key: "frankografia",
+    linkGit:"https://gitlab.com/fguerendiain33/frankografia",
+    link: "https://franco.guerendiain.com.ar/frankografia/",
+  },
+  {
     key: "glossaryFront",
     linkGit:"https://gitlab.com/fguerendiain33/nihongoglossary",
   },

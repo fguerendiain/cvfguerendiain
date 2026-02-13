@@ -3,6 +3,10 @@
     "title": "Web Resume",
     "description": "Personal website developed with React, TypeScript, and Next.js."
   },
+  "frankografia": {
+    "title": "Frankografia Landig Page",
+    "description": "Personal photography portfolio built with Astro, React, and TypeScript"
+  },  
   "glossaryFront": {
     "title": "Nihongo Glossary",
     "description": "App for studying Japanese with filters, search, and pronunciation, developed with React, TypeScript, and Vite. (work in progress)"

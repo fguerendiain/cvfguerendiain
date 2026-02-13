@@ -9,6 +9,14 @@ export interface IExperience {
 
 export const experience: IExperience[] = [
   {
+    id: "r2",
+    roleKey: "r2.role",
+    companyKey: "r2.company",
+    periodKey: "r2.period",
+    summaryKey: "r2.summary",
+    descriptionKey: "r2.description",
+  },
+  {
     id: "santanderTecnologiaArgentina_2",
     roleKey: "santanderTecnologiaArgentina_2.role",
     companyKey: "santanderTecnologiaArgentina_2.company",
