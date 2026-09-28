@@ -1,7 +1,7 @@
 {
   "aboutTitle": "About me",
   "linkedinLinkTitle": "Linkedin",
-  "gitHubLinkTitle": "GitLab",
+  "gitHubLinkTitle": "GitHub",
   "experienceTitle": "Resume",
   "projectsTitle": "Portfolio",
   "contactTitle": "Contact",
@@ -9,7 +9,7 @@
   "contactButtonLablePhone": "Phone",
   "contactButtonLableWhatsapp": "WhatsApp",
   "contactButtonLableLinkedIn": "LinkedIn",
-  "contactButtonLableGitLab": "GitLab",
+  "contactButtonLableGitHub": "GitHub",
   "skillsTitle": "Skills",
   "skillsFrontEndTitle": "Frontend",
   "skillsTestingTitle": "Testing",
@@ -27,7 +27,7 @@
   "pdfExportTooltip": "Export PDF in the current language",
   "pdfGoToWebSite": "franco.guerendiain.com.ar",
   "languajeTitle": "Languages",
-  "projectGitLinkMsg": "Go to the project on GitLab",
+  "projectGitLinkMsg": "Go to the project on GitHub",
   "projectWebLinkMsg": "Go to the project's website",
   "darkToLightTooltip": "Change Theme"
 }

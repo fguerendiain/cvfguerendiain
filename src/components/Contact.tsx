@@ -33,7 +33,7 @@ export default function Contact() {
     },
     {
       icon: <Github size={18} />,
-      label: tGeneral("contactButtonLableGitLab"),
+      label: tGeneral("contactButtonLableGitHub"),
       href: profile.github,
     }
   ];

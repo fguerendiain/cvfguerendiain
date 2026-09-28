@@ -15,7 +15,7 @@ export const profile: IProfile = {
   role: "Frontend Developer — React, TypeScript, Next.js",
   email: "fguerendiain33@gmail.com",
   linkedin: "https://www.linkedin.com/in/fguerendiain/",
-  github: "https://gitlab.com/fguerendiain33/",
+  github: "https://github.com/fguerendiain/",
   linkedinShort: "fguerendiain",
   githubShort: "fguerendiain33",
   phone: "+5491161032207",

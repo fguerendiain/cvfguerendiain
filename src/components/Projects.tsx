@@ -3,7 +3,7 @@
 import { motion } from "framer-motion";
 import { useTranslation } from "react-i18next";
 import { projects } from "@/data/projects";
-import { Gitlab, Globe } from "lucide-react";
+import { Github, Globe } from "lucide-react";
 import i18n from "@/lib/i18n";
 
 export default function Projects() {
@@ -49,7 +49,7 @@ export default function Projects() {
                 className="cursor-pointer inline-flex items-center gap-2 mt-2 px-3 py-1 border rounded-lg text-neutral-700 dark:text-neutral-400 hover:bg-gray-100 dark:hover:bg-neutral-800 transition"
                 title={tGeneral('projectGitLinkMsg')}
               >
-                <Gitlab className="w-4 h-4" />
+                <Github className="w-4 h-4" />
               </button>
             )}
           </motion.div>

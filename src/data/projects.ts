@@ -7,20 +7,20 @@ export interface IProject{
 export const projects: IProject[] = [
   {
     key: "cvWeb",
-    linkGit:"https://gitlab.com/fguerendiain33/cvfguerendiain",
+    linkGit:"https://github.com/fguerendiain/cvfguerendiain",
     link: "https://franco.guerendiain.com.ar",
   },
   {
     key: "frankografia",
-    linkGit:"https://gitlab.com/fguerendiain33/frankografia",
+    linkGit:"https://github.com/fguerendiain/frankografia",
     link: "https://franco.guerendiain.com.ar/frankografia/",
   },
   {
     key: "glossaryFront",
-    linkGit:"https://gitlab.com/fguerendiain33/nihongoglossary",
+    linkGit:"https://github.com/fguerendiain/nihongoglossary",
   },
   {
     key: "glossaryApi",
-    linkGit:"https://gitlab.com/fguerendiain33/nihongoglossaryback",
+    linkGit:"https://github.com/fguerendiain/nihongoglossaryback",
   }
 ];
